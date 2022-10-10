@@ -4,27 +4,25 @@ body {
     flex: 1 1 auto;
     margin: 0;
     min-height: 100vh;
+    background-color: yellow;
 }
 
 header {
     display: flex;
-    height: 80px;
-    width: 80px;
     background-color: rgb(24, 24, 82);
+    justify-content: space-between;
 }
+
 
 .subheader {
     display: flex;
+    background-color: pink;
 }
 
 .cardzone {
     display: flex;
+    height: 100px;
+    width: 100px;
 }
 
 /*might need to make a separate div class for the images. This section is applying to all images and won't allow for individual customization*/
-
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
