@@ -6,26 +6,39 @@ body {
     background-color: yellow;
 }
 
-header {
-    display: flex;
-    background-color: rgb(24, 24, 82);
-    justify-content: space-between;
-}
-
 img {
     display: block;
     max-width: 100%;
 }
 
-.subheader {
-    display: flex;
-    justify-content: center;
-    background-color: pink;
-    gap: 30px;
-    padding: 20px;
+.section {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.subheader__text {}
+.section__content {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section--header, 
+.section--subheader {
+    background-color: rgb(24, 24, 82);
+}
+
+.section--header .section__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--subheader .section__content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .subheader__img {
     display: flex;
@@ -37,16 +50,23 @@ img {
     max-height: 200px;
 }
 
-.cardzone {
-    display: flex;
-    height: 200px;
-    width: 200px;
+.section--cardzone {
+    background-color: white;
+}
+
+.section--cardzone h2 {
+    text-align: center;
 }
 
 .cards {
+    padding: 50px;
+    gap: 10px;
     display: flex;
-    width: 100%;
+    justify-content: center;
 }
 
+.card {
+    flex: 1;
+}
 
 /*might need to make a separate div class for the images. This section is applying to all images and won't allow for individual customization*/

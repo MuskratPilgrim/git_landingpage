@@ -6,38 +6,50 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <img src="images/logo.png" alt="muskratpilgrim">
-            <div class="header-links"><a href="dummy link">link one</a></div>
-            <div class="header-links"><a href="dummy link">link two</a></div>
-            <div class="header-links"><a href="dummy link">link three</a></div>
-        </header>
-        <div class="subheader">
-            <div class="subheader__text">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the code is lower contrast.
-                </p>
-                <button class="top button">Sign up</button>
+        <header class="section section--header">
+            <div class="section__content">
+                <img src="images/logo.png" alt="muskratpilgrim">
+                <div class="header-links"><a href="dummy link">link one</a></div>
+                <div class="header-links"><a href="dummy link">link two</a></div>
+                <div class="header-links"><a href="dummy link">link three</a></div>
             </div>
-            <div class="subheader__img"><img src="images/hurricane.jpg" alt="SHORT IMAGE DESCRIPTION"></div>
+        </header>
+        <div class="section section--subheader">
+            <div class="section__content">
+                <div class="subheader__text">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the code is lower contrast.
+                    </p>
+                    <button class="top button">Sign up</button>
+                </div>
+                <div class="subheader__img"><img src="images/hurricane.jpg" alt="SHORT IMAGE DESCRIPTION"></div>
+            </div>
         </div>
-        <div class="cardzone"> 
-            <h2>Some random information.</h2>
-            <div class="card"><img src="images/hygge.jpg" alt="cottage">Subtext under illustration or image</div>
-            <div class="card"><img src="images/copenhagen.jpg" alt="copenhagen">Subtext under illustration or image</div>
-            <div class="card"><img src="images/canyon.jpg" alt="a canyon">Subtext under illustration or image</div>
-            <div class="card"><img src="images/water.jpg" alt="drop of water">Subtext under illustration or image</div>
+        <div class="section section--cardzone"> 
+            <div class="section__content">
+                <h2>Some random information.</h2>
+                <div class="cards">
+                    <div class="card"><img src="images/hygge.jpg"        alt="cottage">Subtext under illustration or image</div>
+                    <div class="card"><img src="images/copenhagen.jpg" alt="copenhagen">Subtext under illustration or image</div>
+                    <div class="card"><img src="images/canyon.jpg" alt="a canyon">Subtext under illustration or image</div>
+                    <div class="card"><img src="images/water.jpg" alt="drop of water">Subtext under illustration or image</div>
+                </div>
+            </div>
         </div>
-        <div class="quotezone">
+        <div class="section section--quotezone">
             <!-- couldn't this be setup as <p1> and <p2> instead of having separate div classes? -->
-            <div class="quote-actual">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
-            <div class="credit">-Thor, God of Thunder</div>
+            <div class="section__content">
+                <div class="quote-actual">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
+                <div class="credit">-Thor, God of Thunder</div>
+            </div>
         </div>
-        <footer>
-            <div class="bottom-card">
-                <div class="bottom-text1">Call to action! It's time!</div>
-                <div class="bottom-text2">Sign up for our product by clicking on that button right over there!</div>
-                <button class="bottom button">Sign up</button>
+        <footer class="section section--footer">
+            <div class="section__content">
+                <div class="bottom-card">
+                    <div class="bottom-text1">Call to action! It's time!</div>
+                    <div class="bottom-text2">Sign up for our product by clicking on that button right over there!</div>
+                    <button class="bottom button">Sign up</button>
+                </div>
             </div>
         </footer>
 
