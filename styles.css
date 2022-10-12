@@ -33,6 +33,17 @@ img {
     justify-content: space-between;
 }
 
+.header-links {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+}
+
 .section--subheader .section__content {
     display: flex;
     justify-content: center;
@@ -49,6 +60,15 @@ img {
 
 .subheader__img img {
     max-height: 200px;
+}
+
+.subheader__text {
+    color: white;
+}
+
+.header__button {
+    background-color: #3882f6;
+    color: white;
 }
 
 .section--cardzone {
@@ -125,4 +145,7 @@ img {
 
 .section--footer {
     color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
