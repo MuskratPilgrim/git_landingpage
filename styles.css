@@ -23,7 +23,8 @@ img {
 }
 
 .section--header, 
-.section--subheader {
+.section--subheader,
+.section--footer {
     background-color: rgb(24, 24, 82);
 }
 
@@ -69,4 +70,59 @@ img {
     flex: 1;
 }
 
-/*might need to make a separate div class for the images. This section is applying to all images and won't allow for individual customization*/
+.section--quote {
+    background-color: gray;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.quote {
+    font-style: italic;
+    font-size: 26px;
+}
+
+.credit {
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section--cta {
+    background-color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding: 80px; */
+    /* why is padding 80px not the same as padding top and bottom 40px? */
+}
+
+.cta__box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cta__text1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.cta__text2 {
+    color: hwb(0 77% 23%);
+}
+
+.cta__button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+}
+
+.section--footer {
+    color: white;
+}
