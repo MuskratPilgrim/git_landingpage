@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    background-color: yellow;
+    background-color: black;
 }
 
 img {
@@ -14,6 +18,10 @@ img {
 .section {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .section__content {
@@ -96,8 +104,7 @@ img {
     padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* display: flex; */
-    /* justify-content: center; */
+    flex: 1;
 }
 
 .quote {
@@ -117,8 +124,6 @@ img {
     padding-right: 300px;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* padding: 80px; */
-    /* why is padding 80px not the same as padding top and bottom 40px? */
 }
 
 .cta__box {
