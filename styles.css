@@ -8,6 +8,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -77,6 +78,9 @@ img {
 .header__button {
     background-color: #3882f6;
     color: white;
+    border-style: outset;
+    border-radius: 10%;
+    
 }
 
 .section--cardzone {
@@ -131,6 +135,7 @@ img {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    border-radius: 5%;
 }
 
 .cta__text1 {
@@ -146,6 +151,8 @@ img {
     background-color: #3882f6;
     color: white;
     border-color: white;
+    border-style: outset;
+    border-radius: 10%;
 }
 
 .section--footer {
